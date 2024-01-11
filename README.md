@@ -20,3 +20,4 @@ Adds a change in the working directory to the staging area. You can add all chan
 * `git rebase`
 * `git merge`
 * `git branch`
+* `git clean`
