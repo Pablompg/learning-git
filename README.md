@@ -12,9 +12,15 @@ For all the following questions, explain the git command, and its options. The f
 
 Adds a change in the working directory to the staging area. You can add all changes in the working directory by using `git add .`. You can also just add a file by specifying the name and path of the file `git add <file_path>`. This DOES NOT commit the change.
 * `git fetch`
+Updates current index from remote repository.
 * `git commit`
+Prepare changes in local repository to be sent via oush into remote repository.
+-m "message"
 * `git branch -d | git branch -D`
+git branch -d: deletes a local branch
+git branch -D: deletes + force in order to delete a branch which has not been merged.
 * `git reset`
+
 * `git revert`
 * `git cherry-pick`
 * `git rebase`
