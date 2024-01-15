@@ -123,4 +123,4 @@ Sus opciones principales son:
 --force: Si la configuración de git `clean.requireForce` no está marcada como false, el comando rechazará eliminar los archivos o directorios si no se marca esta opción.
 --interactive: Muestra de forma interactiva lo que se haría para poder seleccionarlo.
 --dry-run: muestra lo que se ejecutaría pero no lo llega a realizar, para que el usuario pueda ver el resultado de la acción antes de ejecutarlo.
--X: borra solo los elementos ignorados por git.
+-X: borra solo los elementos ignorados por git.q
