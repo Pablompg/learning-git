@@ -81,6 +81,8 @@ Tiene dos funcionalidades:
 
 La primera, que se ejecuta sobre la misma rama, sirve para combinar varios commit seguidos. Todos aquellos commits sobre los que se elija la opción squash quedarán incluidos en el siguiente commit que se defina como pick. Para ello se abra un editor de texto que permite la selección.
 
+Esta opción debe ejecutarse con la opción - i `git rebase -i HEAD~numero comentarios`.
+
 La segunda, consiste en la fusión de una rama sobre otra, uniendo todos los commit de la rama secundaria en uno solo.
 
 Sus opciones principales son:
