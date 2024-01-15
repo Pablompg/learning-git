@@ -19,6 +19,10 @@ Sus opciones principales son:
 --dry-run: muestra los cambios que se descargarían sin aplicarlos
 --tags: recupera las etiqutas del repositorio remoto, que son las referencias que apuntan a puntos concretos del historial. Se utilizan mucho para la publicación de versiones.
 --set-upstream: define un upstream al realizar el fetch si no está definido previamente.(La primera vez que se inicie un repositorio).
+
+* `git fake` incluye cualquier meme que quieras
+
+
 * `git commit` confirma un cambio después de añadir al stage. Podrá ir seguido de atributos como -m para añadir un mensaje, -a para confirmar los cambios de todos los ficheros, --amend para modificar el mensaje del commit
 * `git branch -d | git branch -D` se ejecuta desde otra rama. Le sigue el nombre de la rama elegida y se elimina
 * `git reset` elimina los cambios. Puede ir seguido de --hard para eliminar cambios en el directorio de trabajo y en el stage. También puede utilizarse el atributo --soft para reubicar la posición del HEAD sin eliminar cambios. Puede añadirse otro atributo HEAD~n donde n es la posicion del commit respecto al último commit que ocuparía la posición 0.
