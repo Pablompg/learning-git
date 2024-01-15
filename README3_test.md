@@ -21,3 +21,5 @@ Adds a change in the working directory to the staging area. You can add all chan
 * `git merge`
 * `git branch`
 * `git clean`
+
+**Prueba para merge**
